@@ -1,0 +1,153 @@
+@font-face {
+    font-family: "regular";
+    src: url(../fonts/ArsenicaTrial-Medium.ttf);
+}
+
+@font-face {
+    font-family: "bold";
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: "normal";
+    src: url(../fonts/Code\ New\ Roman.otf);
+}
+
+@font-face {
+    font-family: "normal_bold";
+    src: url(../fonts/Code\ New\ Roman\ b.otf);
+}
+
+body {
+    margin: 0;
+}
+
+#header {
+    background-image: linear-gradient(to right, #363636, #535252);
+    padding-left: 2%;
+    padding-bottom: 2%;
+    padding-top: 1%;
+    margin: 0;
+}
+
+#header h1 {
+    font-family: "regular";
+    color: #fff;
+    font-size: 80px;
+}
+
+#container {
+    display: flex;
+}
+
+#content {
+    padding-bottom: 5%;
+    padding-left: 2%;
+    margin: 0%;
+    background-color: #dcdcdc;
+    width: 70%;
+    right: 100%;
+}
+
+#content h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+#content span {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#content p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#foto {
+    padding-bottom: 5%;
+    margin: 0px;
+    background-color: #a9a9a9;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#foto img {
+    margin: 0;
+    border-color: #c5c1c1;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 75%;
+    width: 50%;
+}
+
+#footer {
+    padding-left: 2%;
+    margin: 0;
+    background-color: #c0c0c0;
+    padding-bottom: 5%;
+}
+
+#contato {
+    color: #232323;
+    font-size: 25px;
+    font-family: "regular";
+}
+
+@media screen and (max-width: 600px) {
+    #header {
+        padding: 10px 0px;
+    }
+
+    #header h1 {
+        font-size: 15px;
+        padding-left: 12%;
+        font-size: 50px;
+    }
+
+    #container {
+        flex-direction: column;
+    }
+
+    #content {
+        padding: 0;
+        width: 100%;
+        align-items: center;
+    }
+
+    #content h3 {
+        text-align: center;
+        font-size: 45px;
+    }
+
+    #content p {
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    #foto {
+        width: 100%;
+    }
+
+    #foto span {
+        text-align: center;
+    }
+
+    #img_footer {
+        padding-left: 20%;
+    }
+
+    #contato {
+        padding-left: 35%;
+    }
+
+    #copy {
+        padding-left: 10%;
+    }
+
+
+
+}
